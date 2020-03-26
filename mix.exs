@@ -27,9 +27,9 @@ defmodule Iron.Mixfile do
 
   defp deps do
     [
-      {:jason, "~> 1.1"},
+      {:jason, "~> 1.2"},
       {:kryptiles, "~> 0.1.0"},
-      {:ex_doc, "~> 0.14", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.21", only: :dev, runtime: false}
     ]
   end
 
